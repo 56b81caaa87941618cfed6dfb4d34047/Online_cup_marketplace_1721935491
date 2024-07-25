@@ -15,11 +15,11 @@ Vue.component("purple_header_component_1721938213", {
                 <nav id="desktop-navigation" class="hidden md:flex md:grow">
     
                     <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center">
-                        <li><a id="HEADER_NAVBAR_TEXT_1-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" :class="[textStylePrimary, hoverTextStylePrimary]" href="HEADER_NAVBAR_TEXT_1.html">HEADER_NAVBAR_TEXT_1</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_2-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_2.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_2</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_3-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_3.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_3</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_4-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_4.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_4</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_5-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="HEADER_NAVBAR_TEXT_5.html" :class="[textStylePrimary, hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_5</a></li>
+                        <li><a id="Buy & Sell-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" :class="[textStylePrimary, hoverTextStylePrimary]" href="Buy & Sell.html">Buy & Sell</a></li>
+                        <li><a id="Listings-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Listings.html" :class="[textStylePrimary, hoverTextStylePrimary]">Listings</a></li>
+                        <li><a id="Collection-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Collection.html" :class="[textStylePrimary, hoverTextStylePrimary]">Collection</a></li>
+                        <li><a id="Pricing-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Pricing.html" :class="[textStylePrimary, hoverTextStylePrimary]">Pricing</a></li>
+                        <li><a id="Community-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Community.html" :class="[textStylePrimary, hoverTextStylePrimary]">Community</a></li>
                     </ul>
     
                 </nav>
@@ -42,11 +42,11 @@ Vue.component("purple_header_component_1721938213", {
     
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5" :class="signUpButtonGradient">
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_1-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_1.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_1</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_2-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_2.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_2</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_3-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_3.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_3</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_4-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_4.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_4</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_5-link" class="flex font-medium text-sm py-1.5" href="HEADER_NAVBAR_TEXT_5.html" :class="[textStylePrimary,hoverTextStylePrimary]">HEADER_NAVBAR_TEXT_5</a></li>
+                            <li><a id="mobile-Buy & Sell-link" class="flex font-medium text-sm py-1.5" href="Buy & Sell.html" :class="[textStylePrimary,hoverTextStylePrimary]">Buy & Sell</a></li>
+                            <li><a id="mobile-Listings-link" class="flex font-medium text-sm py-1.5" href="Listings.html" :class="[textStylePrimary,hoverTextStylePrimary]">Listings</a></li>
+                            <li><a id="mobile-Collection-link" class="flex font-medium text-sm py-1.5" href="Collection.html" :class="[textStylePrimary,hoverTextStylePrimary]">Collection</a></li>
+                            <li><a id="mobile-Pricing-link" class="flex font-medium text-sm py-1.5" href="Pricing.html" :class="[textStylePrimary,hoverTextStylePrimary]">Pricing</a></li>
+                            <li><a id="mobile-Community-link" class="flex font-medium text-sm py-1.5" href="Community.html" :class="[textStylePrimary,hoverTextStylePrimary]">Community</a></li>
                         </ul>
                     </nav>
     
