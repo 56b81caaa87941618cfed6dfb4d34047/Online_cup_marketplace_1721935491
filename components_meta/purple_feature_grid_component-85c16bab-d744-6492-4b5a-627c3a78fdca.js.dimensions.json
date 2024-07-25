@@ -1,19 +1,18 @@
 {
-    "component_name": "fixed_left_side_hero_component",
-    "id": "fixed_left_side_hero_component_1721935492",
+    "id": "purple_feature_grid_component-85c16bab-d744-6492-4b5a-627c3a78fdca",
+    "name": "purple_feature_grid_component",
     "type": "containerComponent",
     "metadata": {},
     "w": 4,
-    "h": 8,
+    "h": 7,
     "x": 0,
-    "y": 0,
-    "i": "0",
+    "y": 20,
+    "i": "3",
     "minW": 3,
     "maxW": 12,
     "minH": 1,
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true,
-    "name": ""
+    "isResizable": true
 }
