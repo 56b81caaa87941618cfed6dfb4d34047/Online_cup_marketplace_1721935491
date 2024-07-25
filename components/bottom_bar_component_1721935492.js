@@ -19,8 +19,8 @@ Vue.component("bottom_bar_component_1721935492", {
             contactButtonHoverStyle: "hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 border",
             shadowStyle: "shadow-lg",
             payButtonTextStyle: "text-white",
-            payButtonBackgroundStyle: "bg-blue-500 hover:bg-blue-600 rounded-lg",
-            payButtonGradientStyle: "bg-[linear-gradient(100deg, theme(colors.blue.500), 45%, theme(colors.blue.400), 55%, theme(colors.blue.500))] rounded-lg"
+            payButtonBackgroundStyle: "bg-orange-500 hover:bg-orange-600 rounded-lg",
+            payButtonGradientStyle: "bg-[linear-gradient(100deg, theme(colors.orange.500), 45%, theme(colors.orange.400), 55%, theme(colors.orange.500))] rounded-lg"
         };
     },
 });
