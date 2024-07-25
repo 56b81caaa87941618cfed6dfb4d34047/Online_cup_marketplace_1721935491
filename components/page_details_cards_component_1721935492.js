@@ -7,16 +7,16 @@ Vue.component("page_details_cards_component_1721935492", {
         <h2 id="details-title" class="text-lg font-semibold mb-5 pl-4">Details</h2>
         <ul id="details-list" class="grid gap-4 min-[480px]:grid-cols-3 text-sm">
             <li id="project-length" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" :class="detailsComponentTextStyle">PAGE_DETAIL_1_KEY</div>
-                <div :class="detailsComponentTextSecondaryStyle">PAGE_DETAIL_1_VALUE</div>
+                <div class="font-medium" :class="detailsComponentTextStyle">Sustainability Made Simple</div>
+                <div :class="detailsComponentTextSecondaryStyle">Reduce waste by trading used paper cups for rewards or discounts.</div>
             </li>
             <li id="start-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_2_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">PAGE_DETAIL_2_VALUE</time>
+                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">Community-Driven Platform</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">Join a network of eco-conscious individuals committed to a greener future.</time>
             </li>
             <li id="end-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_3_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">PAGE_DETAIL_3_VALUE</time>
+                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">Convenient and Rewarding</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">Easily trade in used cups and earn points towards discounts or eco-friendly products.</time>
             </li>
         </ul>
     </section>

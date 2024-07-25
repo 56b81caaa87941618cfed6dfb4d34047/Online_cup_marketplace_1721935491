@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1721935492", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -38,10 +38,10 @@ Vue.component("quoty_faq_accordion_component_1721935492", {
             svgFillStyle: "fill-slate-400 dark:fill-slate-500",
             termsTextStyle: "text-slate-500 dark:text-slate-400",
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is a paper cup trading marketplace?", description: "It's an online platform that allows buyers and sellers to trade used or collectible paper cups. People can buy, sell or trade unique or rare paper cup designs.", expanded: false },
+                { title: "How does the trading process work?", description: "Sellers list their paper cups with descriptions and pictures. Buyers can browse listings and make offers or purchase cups at the listed price. Safe payment and shipping is facilitated through the marketplace.", expanded: false },
+                { title: "What types of paper cups are traded?", description: "All kinds of paper cups are traded - from common disposable cups to rare promotional cups from events or limited edition designer cups. Collectible, vintage, and unique cups are highly sought after.", expanded: false },
+                { title: "Is there a fee to use the marketplace?", description: "Yes, the marketplace charges a small commission fee on completed sales to cover operational costs. The fees are clearly stated and are a standard practice for online trading platforms.", expanded: false },
             ],
         };
     },
