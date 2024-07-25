@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like a specific shade of orange for the pay button, or should we use a standard web-safe orange color?\", \"option1\": \"Use a specific shade of orange (Please provide the hex code).\", \"option2\": \"Use a standard web-safe orange color.\"}, {\"question 2\": \"Do you want to maintain the original button's shape and size but only change the color, or are you considering other modifications as well?\", \"option1\": \"Maintain the original shape and size, only change the color.\", \"option2\": \"Consider other modifications to the button's design as well (Please specify).\"}], \"input_token_count\": 258, \"output_token_count\": 141, \"time_taken\": \"0:00:06.046654\"}",
+        "message_id": "guest25072024192516",
+        "timestamp": "25072024192523",
+        "component_file_name": "bottom_bar_component_1721935492",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, changing the pay button color to orange.",
         "message_id": "guest25072024192516",
