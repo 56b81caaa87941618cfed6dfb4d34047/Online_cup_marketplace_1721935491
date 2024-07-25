@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like a specific shade of orange for the pay button, or should we use a standard web-safe orange color?\", \"option1\": \"Use a specific shade of orange (Please provide the hex code).\", \"option2\": \"Use a standard web-safe orange color.\"}, {\"question 2\": \"Do you want to maintain the original button's shape and size but only change the color, or are you considering other modifications as well?\", \"option1\": \"Maintain the original shape and size, only change the color.\", \"option2\": \"Consider other modifications to the button's design as well (Please specify).\"}], \"input_token_count\": 258, \"output_token_count\": 141, \"time_taken\": \"0:00:06.046654\"}",
         "timestamp": "25072024192523",
         "message_id": "guest25072024192516"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement hover effect on buttons for better user interaction\", \"checked\": true}, {\"feature\": \"Add icons to payment buttons (e.g., a wallet or credit card icon) for visual clarity\", \"checked\": true}, {\"feature\": \"Enable dynamic button disabling to prevent multiple submissions\", \"checked\": false}, {\"feature\": \"Incorporate progress indicators (e.g., loading spinner) on payment buttons for feedback on transaction status\", \"checked\": false}, {\"feature\": \"Use tooltip on hover for payment buttons to provide extra information\", \"checked\": true}, {\"feature\": \"Implement adaptive button sizes for different devices to enhance mobile responsiveness\", \"checked\": false}], \"input_token_count\": 212, \"output_token_count\": 151, \"time_taken\": \"0:00:06.371664\"}",
+        "timestamp": "25072024192523",
+        "message_id": "guest25072024192516"
     }
 ]
