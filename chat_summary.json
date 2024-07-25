@@ -12,5 +12,11 @@
         "content": "change the blue pay button to orange",
         "timestamp": "25072024192516",
         "message_id": "guest25072024192516"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, changing the pay button color to orange.",
+        "timestamp": "25072024192516",
+        "message_id": "guest25072024192516"
     }
 ]
